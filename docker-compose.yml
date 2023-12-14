@@ -3,7 +3,6 @@ services:
   node:
     build: artifacts/gate-simulator
     image: node-app:1.0
-    container_name: node
     ports:
       - '9999:9999'
     command: npm start
